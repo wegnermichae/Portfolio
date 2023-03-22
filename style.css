@@ -5,6 +5,8 @@
   
   .Dark-Box{
     background-color: rgb(204, 211, 140);
+    padding: auto;
+    width: auto;
   }
   
   .Light-Box{
@@ -21,6 +23,21 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    padding: 10px;
+  }
+
+  .center-large-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 5px;
+  }
+
+  .center-link{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 10px;
   }
